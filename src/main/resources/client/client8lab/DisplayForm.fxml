@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="598.0" prefWidth="1035.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.client8lab.GUI.Controllers.DisplayController">
+   <children>
+      <Pane fx:id="paneToDrawOn" layoutX="-3.0" prefHeight="598.0" prefWidth="926.0" />
+   </children>
+</AnchorPane>

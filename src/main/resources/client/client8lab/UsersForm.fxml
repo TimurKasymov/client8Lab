@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="417.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.client8lab.GUI.Controllers.UsersFormController">
+   <children>
+      <TableView fx:id="tableView" layoutX="28.0" layoutY="65.0" prefHeight="325.0" prefWidth="543.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="userRoleComboBox" layoutX="313.0" layoutY="24.0" prefWidth="150.0" promptText="Права" />
+   </children>
+</AnchorPane>

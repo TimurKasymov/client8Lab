@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="box" alignment="TOP_CENTER" fillWidth="false" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" scaleShape="false" snapToPixel="false" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.client8lab.GUI.Controllers.EntryController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <MenuBar>
+     <menus>
+       <Menu mnemonicParsing="false" text="Settings" fx:id="settingsButton">
+         <items>
+           <MenuItem mnemonicParsing="false" onAction="#onLanguageMenuItemPressed" text="Language" />
+         </items>
+       </Menu>
+     </menus>
+   </MenuBar>
+   <Accordion />
+   <Pane prefHeight="361.0" prefWidth="480.0">
+      <children>
+         <Button fx:id="signUpBtn" alignment="TOP_CENTER" layoutX="69.0" layoutY="245.0" mnemonicParsing="false" onAction="#onSignUpButtonPressed" prefHeight="33.0" prefWidth="358.0" style="-fx-background-color: #BDD5E7;" text="Sign up" />
+         <Button fx:id="loginBtn" alignment="TOP_CENTER" layoutX="69.0" layoutY="198.0" mnemonicParsing="false" onAction="#onLoginButtonPressed" prefHeight="33.0" prefWidth="358.0" style="-fx-background-color: #9ABDDC;" text="Login" />
+         <Label fx:id="nameLabel" alignment="TOP_CENTER" layoutX="70.0" layoutY="72.0" prefHeight="17.0" prefWidth="95.0" text="NAME">
+            <font>
+               <Font name="System Italic" size="15.0" />
+            </font></Label>
+         <Label fx:id="passwordLabel" alignment="TOP_CENTER" layoutX="70.0" layoutY="113.0" prefHeight="17.0" prefWidth="95.0" text="PASSWORD">
+            <font>
+               <Font name="System Italic" size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="nameTF" alignment="TOP_CENTER" layoutX="179.0" layoutY="70.0" prefHeight="25.0" prefWidth="232.0">
+            <font>
+               <Font name="System Italic" size="14.0" />
+            </font></TextField>
+         <TextField fx:id="passwordTF" alignment="TOP_CENTER" layoutX="179.0" layoutY="111.0" prefHeight="25.0" prefWidth="232.0">
+            <font>
+               <Font size="14.0" />
+            </font></TextField>
+         <Label fx:id="loginLabel" alignment="TOP_CENTER" layoutX="69.0" layoutY="151.0" prefHeight="33.0" prefWidth="358.0" textAlignment="JUSTIFY" textFill="#ff6969" />
+         <Label fx:id="titleLabel" alignment="TOP_CENTER" layoutX="69.0" layoutY="20.0" prefHeight="29.0" prefWidth="343.0" text="Please login or sign up for god sake">
+            <font>
+               <Font name="System Bold Italic" size="20.0" />
+            </font>
+         </Label>
+      </children></Pane>
+</VBox>
